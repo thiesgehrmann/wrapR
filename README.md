@@ -1,6 +1,10 @@
 # wrapR
  An extended wrapper to the rpy2 framework, allowing easier transfer of data between python and R.
 
+## Recursive conversion
+
+For structural types, like listvectors and dictionaries, the elements inside these objects are converted automatically, if a conversion function has been defined for them.
+
 ## Example usage
 See the wrapr_test notebook as an example.
 
